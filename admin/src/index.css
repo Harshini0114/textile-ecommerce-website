@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Outfit:wght@100..900&family=Prata&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family: Outfit;
+}
+
+.active {
+  background-color: rgb(241, 190, 228);
+  border-color: rgb(240, 149, 216);
+}
+
+select, input, textarea {
+  border: 1px solid rgb(143, 139, 142);
+  border-radius:4px;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Prata&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+   font-family: Outfit; 
+}
+
+a.active hr{
+    display: block;
+    
+}
+
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media(max-width:640px){
+    a.active{
+        background-color: black;
+        color:white;
+    }
+    a:hover{
+        background-color: rgb(203, 199, 199);
+    }
+}
+
+::-webkit-scrollbar{
+    display:none;
+}
